@@ -210,6 +210,9 @@ header li a:hover i {
 	margin-top:2px;
 	background: rgba(100,100,100,0.3);
 }
+.left_sidebar li a{
+	display:inline;
+}
 /*回到顶部的样式*/
 .moveTop{
 	position:fixed;
