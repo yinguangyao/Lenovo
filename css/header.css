@@ -205,6 +205,7 @@ header li a:hover i {
 	border:1px solid lightgray;
 	width:30px;
 	height:30px;
+	display:block;
 	text-align:center;
 	line-height:30px;
 	margin-top:2px;
