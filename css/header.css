@@ -9,7 +9,8 @@ body {
 	
 }
 
-a {
+a {     
+	display:block;
 	text-decoration: none;
 	color:black;
 }
@@ -211,7 +212,7 @@ header li a:hover i {
 	background: rgba(100,100,100,0.3);
 }
 .left_sidebar li a{
-	display:inline;
+	display:inline!important;
 }
 /*回到顶部的样式*/
 .moveTop{
