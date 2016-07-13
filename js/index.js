@@ -254,4 +254,8 @@ $(function() {
   })();
   var moveTo=move.init;
   moveTo();
+  $(".loading").css("height",$(window).height());
+  $(".container").load(function(){
+  	$(".loading").hide();
+  });
 });
