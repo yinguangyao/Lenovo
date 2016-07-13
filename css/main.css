@@ -294,3 +294,23 @@ footer ul li.country{
 	width:95px;
 	height:19px;
 }
+.loading{
+	width:100%;
+	height:100%;
+	display:none;
+	top:0;
+	position:fixed;
+	background: white;
+	z-index:1000;
+}
+.loading img{
+	width:400px;
+	height:300px;
+	display:block;
+	top:50%;
+	left:50%;
+	position:fixed;
+	margin-top:-150px;
+	margin-left:-200px;
+	z-index:1001;
+}
