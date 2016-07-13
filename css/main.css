@@ -54,5 +54,5 @@ footer ul{float: right;margin-right:30px;}
 footer ul li{display:inline-block;padding:0px 10px;font-size:12px;color:lightgray;border-right:1px solid darkgray;}
 footer ul li i{vertical-align:-2px;width:10px;height:13px;background: url('../img/icon.png');display:inline-block;}
 footer ul li.country{border:0;vertical-align:top;background: url('../img/icon.png') -72px -320px;font-size:0;width:95px;height:19px;}
-.loading{width:100%;height:100%;top:0;position:fixed;background: white;z-index:1000;}
+.loading{width:100%;height:100%;top:0;position:fixed;display:none;background: white;z-index:1000;}
 .loading img{width:400px;height:300px;display:block;top:50%;left:50%;position:fixed;margin-top:-150px;margin-left:-200px;z-index:1001;}
