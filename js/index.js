@@ -88,6 +88,11 @@ $(function() {
 		});
 		
 		//回到顶部
+		if($("html, body").scrollTop > 10) {
+			$lay.css("display", "block");
+		}else {
+			$lay.css("display", "none");
+		}
 		$lay.on("click",function(){
 			
 			$("html,body").animate({
