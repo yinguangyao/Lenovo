@@ -53,26 +53,26 @@ $(function() {
 			"height": $("body").height()
 		});
 		$loginButton.on("click", function() {
-			$layer.slideDown(1000);
+			$layer.slideDown(500);
 			$loginDiv.fadeIn(500);
 		});
 		$regButton.on("click", function() {
 
-			$layer.slideDown(1000);
+			$layer.slideDown(500);
 			$regDiv.fadeIn(500);
 		});
 		$layer.on("click", function() {
 
 			$loginDiv.fadeOut(500);
 			$regDiv.fadeOut(500);
-			$layer.slideUp(1000);
+			$layer.slideUp(500);
 		});
 		$close1.on("click", function() {
-			$layer.slideUp(1000);
+			$layer.slideUp(500);
 			$loginDiv.fadeOut(500);
 		});
 		$close2.on("click", function() {
-			$layer.slideUp(1000);
+			$layer.slideUp(500);
 			$regDiv.fadeOut(500);
 		});
 		//图片效果
